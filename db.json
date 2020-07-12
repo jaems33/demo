@@ -1,14 +1,141 @@
 {
-  "posts": [
-    { "id": 1, "title": "Product 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "productTypes": {
+    "71":{
+        "name": "Produce"
+    }, 
+    "72": {
+        "name": "Meat"
+    }, 
+    "73": {
+        "name": "Seafood"
+    }, 
+    "74": {
+        "name": "Dry Goods & Pasta"
+    }, 
+    "75": {
+        "name": "Dairy & Eggs"
+    },
+    "76": {
+        "name": "Frozen"
+    },
+    "77": {
+        "name": "Deli"
+    },
+    "78": {
+        "name": "Specialty"
+    }
+  },
+  "producers": {
+    "1": {
+        "name": "Freshberry Farms"
+    },
+    "2": {
+        "name": "Capay Valley Farm"
+    },
+    "100": {
+        "name": "Golden Gate Meat"
+    },
+    "200": {
+        "name": "Marin Sun Farms"
+    },
+    "300": {
+        "name": "De Cecco"
+    }
+  },
+  "products": {
+    "36": {
+        "name": "Carrots",
+        "type": 71,
+        "size": "1 lb",
+        "price": 2.39,
+        "thumbnail": "images/carrot.png",
+        "productImage": "images/big-carrot.png",
+        "producerId": 1,
+        "sku": 283801
+    },
+    "37": {
+        "name": "Celery",
+        "type": 71,
+        "size": "1 lb",
+        "price": 2.59,
+        "thumbnail": "images/celery.png",
+        "producerId": 2,
+        "sku": 283802
+    },
+    "38": {
+        "name": "Boston Lettuce",
+        "type": 71,
+        "size": "1 lb",
+        "price": 2.79,
+        "thumbnail": "images/lettuce.png",
+        "producerId": 1,
+        "sku": 283803
+    },
+    "39": {
+        "name": "Romaine Lettuce",
+        "type": 71,
+        "size": "1 lb",
+        "price": 2.19,
+        "thumbnail": "images/romaine-lettuce.png",
+        "producerId": 1,
+        "sku": 283840
+    },
+    "50": {
+        "name": "Strip Steak",
+        "type": 72,
+        "size": "1 lb",
+        "price": 9.89,
+        "thumbnail": "images/strip_steak_small.png",
+        "producerId": 100,
+        "sku": 583803
+    }, 
+    "200": {
+        "name": "Bass",
+        "type": 73,
+        "size": "1 lb",
+        "price": 5.89,
+        "thumbnail": "images/bass_small.png",
+        "producerId": 200,
+        "sku": 583810
+    },
+    "201": {
+        "name": "Salmon Steak",
+        "type": 73,
+        "size": "1 lb",
+        "price": 5.89,
+        "thumbnail": "images/salmon_steak.png",
+        "productImage": "images/salmon_steak.png",
+        "producerId": 200,
+        "sku": 583812
+    },
+    "400": {
+        "name": "Eggs",
+        "type": 75,
+        "size": "30 per pack",
+        "price": 5.89,
+        "thumbnail": "images/eggs_small.png",
+        "producerId": 2,
+        "sku": 583849
+    },
+    "900": {
+        "name": "Spaghetti",
+        "type": 74,
+        "size": "454 grams",
+        "price": 3.29,
+        "thumbnail": "images/spaghetti.png",
+        "productImage": "images/spaghetti.png",
+        "producerId": 300,
+        "sku": 392913
+    },
+    "901": {
+        "name": "Bucatini",
+        "type": 74,
+        "size": "454 grams",
+        "price": 3.29,
+        "thumbnail": "images/bucatini.png",
+        "productImage": "images/bucatini.png",
+        "producerId": 300,
+        "sku": 392914
+    }
   }
 }
