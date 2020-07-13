@@ -152,5 +152,17 @@
       "userId": 1,
       "products": []
     }
-  ]
+  ],
+  "carts": [
+        {
+            "userId": 1,
+            "cart": [
+                {
+                    "productId": 37,
+                    "quantity": 3,
+                    "note": ""
+                }
+            ]
+        }
+    ]
 }
